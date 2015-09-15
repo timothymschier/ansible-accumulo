@@ -30,3 +30,10 @@
     - monitor
     - tracer
     - tserver
+        
+- name: Set ACCUMULO_HOME
+  lineinfile: >
+    dest=/etc/environment
+    state=present
+    regexp='^ACCUMULO_HOME'
+    line="ACCUMULO_HOME={{ accumulo_home_dir }}"
