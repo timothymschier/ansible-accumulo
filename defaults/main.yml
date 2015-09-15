@@ -4,3 +4,4 @@ accumulo_mirror: "http://apache.mirrors.lucidnetworks.net"
 accumulo_conf_dir: "/etc/accumulo/conf"
 accumulo_log_dir: "/var/log/accumulo"
 accumulo_leader: False
+accumulo_home_dir: "/usr/lib/accumulo"
